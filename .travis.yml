@@ -11,10 +11,10 @@ before_script:
     - git clone --quiet https://github.com/1000ch/middleman-playground.git build
     - pushd build
     - git checkout -b gh-pages
-    - popd
-script:
     - npm install
     - ./node_modules/grunt-cli/bin/grunt
+    - popd
+script:
     - bundle exec middleman build
 after_success:
     - cd build
