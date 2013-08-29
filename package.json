@@ -1,0 +1,25 @@
+{
+  "name": "middleman-playground",
+  "version": "0.0.1",
+  "description": "middleman playground.",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/1000ch/middleman-playground.git"
+  },
+  "keywords": [
+    "middleman"
+  ],
+  "author": "1000ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/middleman-playground/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.5.0"
+  }
+}
