@@ -1,4 +1,0 @@
-middleman-playground
-====================
-
-middleman playground.
