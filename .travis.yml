@@ -2,7 +2,9 @@ language: ruby
 rvm: 2.0.0
 notifications:
   email: false
-bundler_args: --binstubs
+bundler_args:
+    - --binstubs
+    - --deployment
 env:
   global:
     - GIT_COMMITTER_NAME=1000ch
