@@ -2,7 +2,7 @@ language: ruby
 rvm: 2.0.0
 notifications:
   email: false
-bundler_args: --without deployment
+bundler_args:
 env:
   global:
     - GIT_COMMITTER_NAME=1000ch
